@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: rgb(244, 225, 225);
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a.active {
+  color: #413f3f;
+}
+
+.visit-btn {
+  background: #6e2914;
+  color: rgb(232, 181, 181);
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  background-image: url('https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  color: rgb(251, 247, 247);
+  padding-left: 5%;
+}
+
+.hero-text .location {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text .location span {
+  color: #f0eded;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+/* Featured Section */
+.featured {
+  padding: 3rem 0;
+  background: #e6b7b7;
+}
+
+.featured-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.featured-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.featured-content .tag {
+  color: #942605;
+  font-weight: bold;
+}
+
+.featured-content h2 {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+.featured-content .description {
+  font-size: 1rem;
+  color: #333333;
+}
+
+.featured-content a {
+  color: #7a311b;
+  text-decoration: underline;
+}
+
+.features-boxes {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.features-boxes .box {
+  background: rgb(123, 84, 84);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(233, 230, 230, 0.05);
+  text-align: center;
+  flex: 1 1 200px;
+  font-weight: bold;
+}
+
+.features-boxes .box span {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #ddcccc;
+}
