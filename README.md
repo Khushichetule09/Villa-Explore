@@ -16,7 +16,7 @@ Welcome to the **Villa Real Estate** landing page! This is a stylish, responsive
 
 ## 📸 Screenshot
 
-![Alt text](images/Preview.png)
+![Alt text](images/preview.png)
 
 
 ---
