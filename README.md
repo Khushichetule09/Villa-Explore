@@ -20,19 +20,6 @@ Welcome to the **Villa Real Estate** landing page! This is a stylish, responsive
 
 
 ---
-## 🚀 Getting Started
-
-To run this project locally:
-
-1. Clone the repository or download the ZIP file.
-2. Open the `index.html` file in your browser.
-
-```bash
-git clone https://github.com/yourusername/villa-real-estate.git
-cd villa-real-estate
-open index.html
-
----
 
 📁 File Structure
 
