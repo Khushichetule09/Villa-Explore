@@ -18,21 +18,3 @@ Welcome to the **Villa Real Estate** landing page! This is a stylish, responsive
 
 ![Alt text](images/preview.png)
 
-
----
-
-📁 File Structure
-
-villa-real-estate/
-├── index.html         # Main HTML file
-├── style.css          # Styling (CSS)
-├── script.js          # JavaScript (empty or for future use)
-
----
-
-🛠️ Customization
-Replace the hero banner image and featured image with your own property photos.
-
-Adjust the color scheme in style.css to match your brand identity.
-
-Add links to your real properties or connect with a backend for dynamic listings.
